@@ -1,7 +1,1 @@
-export default function HomePage() {
-  return (
-    <>
-      <div>Hello</div>
-    </>
-  );
-}
+export { default } from './products';
