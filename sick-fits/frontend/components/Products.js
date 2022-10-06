@@ -36,7 +36,6 @@ export default function Products() {
       <ProductsListStyles>
         {data.allProducts.map((product) => (
           <Product key={product.id} product={product} />
-          // <p key={product.id}>{product.name}</p>
         ))}
       </ProductsListStyles>
     </div>
